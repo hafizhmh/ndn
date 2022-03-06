@@ -1,0 +1,315 @@
+{
+    "Medan": {
+        "neighbors": [
+            "Bengkulu",
+            "Jambi",
+            "Batam"
+        ],
+        "cartesian_coord": [
+            3.5896654,
+            98.6738261
+        ],
+        "polar_coord": [
+            98.73909891677663,
+            2.0834503497606454
+        ]
+    },
+    "Bengkulu": {
+        "neighbors": [
+            "Medan",
+            "Lampung",
+            "Palembang"
+        ],
+        "cartesian_coord": [
+            -3.7922858,
+            102.2623797
+        ],
+        "polar_coord": [
+            102.33267187704938,
+            362.12377660982787
+        ]
+    },
+    "Jambi": {
+        "neighbors": [
+            "Medan",
+            "Palembang"
+        ],
+        "cartesian_coord": [
+            -1.6296917,
+            103.6077806
+        ],
+        "polar_coord": [
+            103.62059687096377,
+            360.90115584148464
+        ]
+    },
+    "Batam": {
+        "neighbors": [
+            "Medan",
+            "Pontianak",
+            "Jakarta",
+            "Jambi"
+        ],
+        "cartesian_coord": [
+            1.1030815,
+            104.0383696
+        ],
+        "polar_coord": [
+            104.04421722432173,
+            0.6074638281005855
+        ]
+    },
+    "Palembang": {
+        "neighbors": [
+            "Bengkulu",
+            "Jambi",
+            "Lampung"
+        ],
+        "cartesian_coord": [
+            -2.9888297,
+            104.756857
+        ],
+        "polar_coord": [
+            104.79948564517886,
+            361.63426899753523
+        ]
+    },
+    "Lampung": {
+        "neighbors": [
+            "Bengkulu",
+            "Palembang"
+        ],
+        "cartesian_coord": [
+            -5.4460713,
+            105.2643742
+        ],
+        "polar_coord": [
+            105.40516196241202,
+            362.9616756543517
+        ]
+    },
+    "Jakarta": {
+        "neighbors": [
+            "Lampung",
+            "Batam",
+            "Pontianak",
+            "Surabaya"
+        ],
+        "cartesian_coord": [
+            -6.1753942,
+            106.827183
+        ],
+        "polar_coord": [
+            107.00552565751399,
+            363.3084340503257
+        ]
+    },
+    "Pontianak": {
+        "neighbors": [
+            "Batam",
+            "Jakarta",
+            "Banjarmasin"
+        ],
+        "cartesian_coord": [
+            -0.0226903,
+            109.3447488
+        ],
+        "polar_coord": [
+            109.34475115424982,
+            360.01188953673125
+        ]
+    },
+    "Surabaya": {
+        "neighbors": [
+            "Jakarta",
+            "Banjarmasin",
+            "Makassar",
+            "Kupang"
+        ],
+        "cartesian_coord": [
+            -7.2459717,
+            112.7378266
+        ],
+        "polar_coord": [
+            112.97044592444907,
+            363.67749976685263
+        ]
+    },
+    "Banjarmasin": {
+        "neighbors": [
+            "Pontianak",
+            "Surabaya",
+            "Balikpapan",
+            "Makassar"
+        ],
+        "cartesian_coord": [
+            -3.3187496,
+            114.5925828
+        ],
+        "polar_coord": [
+            114.64063037022413,
+            361.6588962753789
+        ]
+    },
+    "Balikpapan": {
+        "neighbors": [
+            "Banjarmasin",
+            "Manado"
+        ],
+        "cartesian_coord": [
+            -1.2398711,
+            116.8593379
+        ],
+        "polar_coord": [
+            116.86591519673729,
+            360.6078822366322
+        ]
+    },
+    "Makassar": {
+        "neighbors": [
+            "Banjarmasin",
+            "Surabaya"
+        ],
+        "cartesian_coord": [
+            -5.1342962,
+            119.4124282
+        ],
+        "polar_coord": [
+            119.52275518113481,
+            362.46199185697657
+        ]
+    },
+    "Kendari": {
+        "neighbors": [
+            "Makassar",
+            "Manado",
+            "Fakfak"
+        ],
+        "cartesian_coord": [
+            -3.9918068,
+            122.5180066
+        ],
+        "polar_coord": [
+            122.58301865579169,
+            361.8661159287888
+        ]
+    },
+    "Manado": {
+        "neighbors": [
+            "Balikpapan",
+            "Kendari",
+            "Ternate"
+        ],
+        "cartesian_coord": [
+            1.4900578,
+            124.8408708
+        ],
+        "polar_coord": [
+            124.84976289264483,
+            0.6838302940766882
+        ]
+    },
+    "Kupang": {
+        "neighbors": [
+            "Surabaya",
+            "Tual"
+        ],
+        "cartesian_coord": [
+            -10.1632209,
+            123.6017755
+        ],
+        "polar_coord": [
+            124.01890971063484,
+            364.700600946137
+        ]
+    },
+    "Ternate": {
+        "neighbors": [
+            "Manado",
+            "Sorong",
+            "Fakfak"
+        ],
+        "cartesian_coord": [
+            0.7852338,
+            127.3831752
+        ],
+        "polar_coord": [
+            127.38559540291264,
+            0.35318646081380795
+        ]
+    },
+    "Sorong": {
+        "neighbors": [
+            "Ternate",
+            "Jayapura"
+        ],
+        "cartesian_coord": [
+            -0.8634105,
+            131.2544805
+        ],
+        "polar_coord": [
+            131.25732028735155,
+            360.37689428898926
+        ]
+    },
+    "Fakfak": {
+        "neighbors": [
+            "Ternate",
+            "Kendari",
+            "Tual",
+            "Timika",
+            "Jayapura"
+        ],
+        "cartesian_coord": [
+            -2.9298174,
+            132.2961612
+        ],
+        "polar_coord": [
+            132.32859894313748,
+            361.268659162184
+        ]
+    },
+    "Tual": {
+        "neighbors": [
+            "Fakfak",
+            "Kupang",
+            "Timika"
+        ],
+        "cartesian_coord": [
+            -5.6443094,
+            132.7416819
+        ],
+        "polar_coord": [
+            132.8616285548379,
+            362.43480728982155
+        ]
+    },
+    "Timika": {
+        "neighbors": [
+            "Fakfak",
+            "Tual"
+        ],
+        "cartesian_coord": [
+            -4.5481052,
+            136.889884
+        ],
+        "polar_coord": [
+            136.96541754196102,
+            361.9029266714027
+        ]
+    },
+    "Jayapura": {
+        "neighbors": [
+            "Sorong",
+            "Fakfak"
+        ],
+        "cartesian_coord": [
+            -2.5387539,
+            140.7037389
+        ],
+        "polar_coord": [
+            140.72664073232238,
+            361.03369038126397
+        ]
+    }
+}
