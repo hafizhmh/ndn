@@ -4,53 +4,11 @@ Bengkulu: _ radius=102.33267187704938 angle=362.12377660982787
 Jambi: _ radius=103.62059687096377 angle=360.90115584148464
 Batam: _ radius=104.04421722432173 angle=0.60746382810059
 Palembang: _ radius=104.79948564517886 angle=361.63426899753523
-Bandar Lampung: _ radius=105.40516196241202 angle=362.96167565435172
-Jakarta: _ radius=107.00552565751399 angle=363.30843405032567
-Pontianak: _ radius=109.34475115424982 angle=360.01188953673125
-Surabaya: _ radius=112.97044592444907 angle=363.67749976685263
-Banjarmasin: _ radius=114.64063037022413 angle=361.65889627537888
-Balikpapan: _ radius=116.86591519673729 angle=360.60788223663218
-Makassar: _ radius=119.52275518113481 angle=362.46199185697657
-Kendari: _ radius=122.58301865579169 angle=361.86611592878882
-Manado: _ radius=124.84976289264483 angle=0.68383029407669
-Kupang: _ radius=124.01890971063484 angle=364.70060094613700
-Ternate: _ radius=127.38559540291264 angle=0.35318646081381
-Sorong: _ radius=131.25732028735155 angle=360.37689428898926
-Fakfak: _ radius=132.32859894313748 angle=361.26865916218401
-Tual: _ radius=132.86162855483789 angle=362.43480728982155
-Timika: _ radius=136.96541754196102 angle=361.90292667140272
-Jayapura: _ radius=140.72664073232238 angle=361.03369038126397
 
 [links]
 Medan:Bengkulu delay=4ms
-Medan:Jambi delay=4ms
-Medan:Batam delay=3ms
-Bengkulu:Lampung delay=3ms
-Bengkulu:Palembang delay=2ms
+Medan:Jambi delay=5ms
+Medan:Batam delay=4ms
+Bengkulu:Palembang delay=3ms
 Jambi:Palembang delay=2ms
-Batam:Pontianak delay=3ms
-Batam:Jakarta delay=5ms
 Batam:Jambi delay=2ms
-Palembang:Lampung delay=2ms
-Jakarta:Lampung delay=3ms
-Jakarta:Pontianak delay=5ms
-Jakarta:Surabaya delay=5ms
-Pontianak:Banjarmasin delay=3ms
-Surabaya:Banjarmasin delay=3ms
-Surabaya:Makassar delay=4ms
-Surabaya:Kupang delay=5ms
-Banjarmasin:Balikpapan delay=3ms
-Banjarmasin:Makassar delay=3ms
-Balikpapan:Manado delay=4ms
-Kendari:Makassar delay=3ms
-Kendari:Manado delay=4ms
-Kendari:Fakfak delay=5ms
-Manado:Ternate delay=2ms
-Kupang:Tual delay=5ms
-Ternate:Sorong delay=4ms
-Ternate:Fakfak delay=4ms
-Sorong:Jayapura delay=4ms
-Fakfak:Tual delay=4ms
-Fakfak:Timika delay=3ms
-Fakfak:Jayapura delay=5ms
-Tual:Timika delay=3ms
