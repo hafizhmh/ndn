@@ -16,7 +16,7 @@ def delta_km(city1: str, city2: str, data: dict):
     delta_km = sqrt(delta_lat_km**2 + delta_lon_km**2)
     return delta_km
 
-outfile = "tesis.conf"
+outfile = "tesis5.conf"
 lat_conv  = 110.574
 long_conv  = 111.320
 if os.path.exists(outfile):
@@ -24,26 +24,10 @@ if os.path.exists(outfile):
 
 cities = {
     "Medan": {"neighbors": ["Bengkulu", "Jambi", "Batam"]},
-    "Bengkulu": {"neighbors": ["Medan", "Lampung", "Palembang"]},
+    "Bengkulu": {"neighbors": ["Medan", "Palembang"]},
     "Jambi": {"neighbors": ["Medan", "Palembang"]},
-    "Batam": {"neighbors": ["Medan", "Pontianak", "Jakarta", "Jambi"]},
-    "Palembang": {"neighbors": ["Bengkulu", "Jambi", "Lampung"]},
-    "Lampung": {"neighbors": ["Bengkulu", "Palembang"]},
-    "Jakarta": {"neighbors": ["Lampung", "Batam", "Pontianak", "Surabaya"]},
-    "Pontianak": {"neighbors": ["Batam", "Jakarta", "Banjarmasin"]},
-    "Surabaya": {"neighbors": ["Jakarta", "Banjarmasin", "Makassar", "Kupang"]},
-    "Banjarmasin": {"neighbors": ["Pontianak", "Surabaya", "Balikpapan", "Makassar"]},
-    "Balikpapan": {"neighbors": ["Banjarmasin", "Manado"]},
-    "Makassar": {"neighbors": ["Banjarmasin", "Surabaya"]},
-    "Kendari": {"neighbors": ["Makassar", "Manado", "Fakfak"]},
-    "Manado": {"neighbors": ["Balikpapan", "Kendari", "Ternate"]},
-    "Kupang": {"neighbors": ["Surabaya", "Tual"]},
-    "Ternate": {"neighbors": ["Manado", "Sorong", "Fakfak"]},
-    "Sorong": {"neighbors": ["Ternate", "Jayapura"]},
-    "Fakfak": {"neighbors": ["Ternate", "Kendari", "Tual", "Timika", "Jayapura"]},
-    "Tual": {"neighbors": ["Fakfak", "Kupang", "Timika"]},
-    "Timika": {"neighbors": ["Fakfak", "Tual"]},
-    "Jayapura": {"neighbors": ["Sorong", "Fakfak"]}
+    "Batam": {"neighbors": ["Medan",  "Jambi"]},
+    "Palembang": {"neighbors": ["Bengkulu", "Jambi"]},
 }
 cities_info = []
 base_url = 'http://api.openweathermap.org/geo/1.0/direct'
